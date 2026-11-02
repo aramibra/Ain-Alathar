@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">شعار عين الأثر</title>
+  <desc id="desc">عين تحيط بعلامة موقع تحتوي على قوس تراثي</desc>
+  <defs>
+    <linearGradient id="g" x1="18" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0d6a4a"/>
+      <stop offset="1" stop-color="#174a3a"/>
+    </linearGradient>
+  </defs>
+  <path d="M11 64C24 39 42 26 64 26s40 13 53 38c-13 25-31 38-53 38S24 89 11 64Z" fill="none" stroke="url(#g)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64 38c-14 0-25 11-25 25 0 19 25 42 25 42s25-23 25-42c0-14-11-25-25-25Z" fill="#c9a15f"/>
+  <circle cx="64" cy="63" r="17" fill="#f7f1e5"/>
+  <path d="M51 72V59c0-7 6-13 13-13s13 6 13 13v13" fill="none" stroke="#174a3a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M47 74h34M55 74V61M73 74V61" stroke="#174a3a" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="102" cy="35" r="6" fill="#c9a15f"/>
+</svg>

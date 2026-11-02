@@ -1,0 +1,8 @@
+<?php
+require_once __DIR__.'/includes/helpers.php'; require_login(); $title=t('nav.map'); $mapData=site_map_data('WHERE status="active"'); include __DIR__.'/includes/header.php';
+?>
+<section class="page-hero"><span class="eyebrow"><?= h(localized('تحليل مكاني للمخاطر','Spatial Risk Analysis')) ?></span><h1><?= h(t('nav.map')) ?></h1><p><?= h(localized('تعرض الخريطة مواقع التراث حسب الإحداثيات، وتحوّل نسبة الخطورة إلى كثافة حرارية تساعد على معرفة مناطق الأولوية.','The map plots heritage sites by coordinates and converts risk scores into a heat layer that highlights priority areas.')) ?></p></section>
+<div class="legend" style="margin-bottom:14px"><span><i style="background:var(--success)"></i><?= h(t('risk.low')) ?> 0–39%</span><span><i style="background:var(--warning)"></i><?= h(t('risk.medium')) ?> 40–69%</span><span><i style="background:var(--danger)"></i><?= h(t('risk.high')) ?> 70–100%</span></div>
+<div class="map-card"><div class="map-toolbar"><h2 style="color:var(--green);margin:0"><?= h(localized('خريطة المواقع','Site Map')) ?></h2><div class="map-controls"><button class="btn btn-light" type="button" data-map-mode="markers"><?= h(localized('علامات المواقع','Site Markers')) ?></button><button class="btn btn-primary" type="button" data-map-mode="heat"><?= h(t('nav.map')) ?></button></div></div><div id="heritageMap" class="map-wrap"></div></div>
+<script>window.ATHAR_SITES=<?= json_encode($mapData,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES) ?>;window.ATHAR_DEFAULT_MODE='heat';window.ATHAR_LANG=<?= json_encode(current_lang()) ?>;</script><script src="assets/js/map.js?v=14.0"></script>
+<?php include __DIR__.'/includes/footer.php'; ?>

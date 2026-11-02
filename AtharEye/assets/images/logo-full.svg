@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 132" role="img" aria-labelledby="title desc">
+  <title id="title">عين الأثر AtharEye</title><desc id="desc">شعار منصة عين الأثر</desc>
+  <defs><linearGradient id="g" x1="22" y1="18" x2="119" y2="113" gradientUnits="userSpaceOnUse"><stop stop-color="#0d6a4a"/><stop offset="1" stop-color="#174a3a"/></linearGradient></defs>
+  <g transform="translate(5 2)">
+    <path d="M8 64C21 39 39 26 61 26s40 13 53 38c-13 25-31 38-53 38S21 89 8 64Z" fill="none" stroke="url(#g)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M61 38c-14 0-25 11-25 25 0 19 25 42 25 42s25-23 25-42c0-14-11-25-25-25Z" fill="#c9a15f"/>
+    <circle cx="61" cy="63" r="17" fill="#f7f1e5"/>
+    <path d="M48 72V59c0-7 6-13 13-13s13 6 13 13v13M44 74h34M52 74V61M70 74V61" fill="none" stroke="#174a3a" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <text x="145" y="62" fill="#174a3a" font-family="Tahoma,Arial,sans-serif" font-size="46" font-weight="700">عين الأثر</text>
+  <text x="147" y="101" fill="#b88c4e" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="4">ATHAREYE</text>
+</svg>
